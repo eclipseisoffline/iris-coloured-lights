@@ -10,7 +10,7 @@ All the code in this repository is licensed under GNU GPLv3.
 
 ### Using standalone
 
-Download a ZIP file of this repository on GitHub, then copy the ZIP file over to your shaderpacks directory. Everything should work out of the box.
+Download a ZIP file of this repository on GitHub, then extract the ZIP file over to your shaderpacks directory. Everything should work out of the box.
 
 ### Including in your own shaderpack
 
@@ -52,7 +52,7 @@ worldPos = modelToWorldSpace(gl_Vertex.xyz);
 localChunkPos = blockPosToChunkPos(blockPosToLocalPos(worldPosToBlockPos(worldPos, at_midBlock)));
 ```
 
-`at_midBlock` being an input attributes.
+`at_midBlock` being an input attribute.
 
 Copy the `begin.csh` file in the `shaders` directory over to your `shaders` directory.
 
