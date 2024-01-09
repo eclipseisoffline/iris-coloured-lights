@@ -1,3 +1,7 @@
+// Coloured Lights: a library to add coloured lights to your Minecraft shader
+// Copyright (C) 2024 https://github.com/systemneutron
+// Coloured Lights is licensed under GNU GPLv3
+
 #version 430 compatibility
 #define VERTEX
 
