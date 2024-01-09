@@ -1,0 +1,21 @@
+screen.COLOURED_LIGHTS = Colored lights
+screen.COLOURED_LIGHTS.comment = Colored lights settings
+
+option.COLOUR_INTENSITY = Color intensity
+option.COLOUR_INTENSITY.comment = The intensity of the colored lights.
+option.BLOCK_LIGHTS = Colored block lights
+option.BLOCK_LIGHTS.comment = Colored block lights. This is only visual. At the moment only some concrete blocks are implemented.
+option.COLOURED_LIGHTS_RENDER_DISTANCE = Render distance
+option.COLOURED_LIGHTS_RENDER_DISTANCE.comment = Render distance of light colors (diameter).
+option.COLOURED_LIGHTS_RENDER_DISTANCE_VERTICAL = Vertical render distance
+option.COLOURED_LIGHTS_RENDER_DISTANCE_VERTICAL.comment = Vertical render distance of light colors (diameter).
+option.MAX_COLOURED_LIGHTS = Max colored lights
+option.MAX_COLOURED_LIGHTS.comment = Maximum amount of colored lights, per chunk.
+
+value.COLOUR_INTENSITY.0.0 = Off
+value.COLOUR_INTENSITY.0.33 = Low
+value.COLOUR_INTENSITY.0.66 = Medium
+value.COLOUR_INTENSITY.1.0 = Normal
+value.COLOUR_INTENSITY.1.5 = High
+value.COLOUR_INTENSITY.2.0 = Very high
+value.COLOUR_INTENSITY.4.0 = Ultra
