@@ -14,7 +14,7 @@ struct ColouredLight {
 
 // Modify this array to add or remove coloured light blocks.
 // Don't forget to update the array size
-const ColouredLight[] colouredLights = ColouredLight[17](
+const ColouredLight[] colouredLights = ColouredLight[18](
     ColouredLight(89, 15, vec3(1.0, 0.43, 0.0), true), // Glowstone
     ColouredLight(91, 15, vec3(1.0, 0.54, 0.0), true), // Jack o lantern
     ColouredLight(138, 15, vec3(1.0, 1.0, 1.0), true), // Beacon
@@ -27,6 +27,7 @@ const ColouredLight[] colouredLights = ColouredLight[17](
     ColouredLight(25110, 10, vec3(0.75, 0.0, 0.75), false), // Purple concrete
     ColouredLight(25114, 10, vec3(1.0, 0.0, 0.0), false), // Red concrete
     ColouredLight(463, 15, vec3(1.0, 0.54, 0.0), true), // Lantern
+    ColouredLight(464, 15, vec3(1.0, 0.52, 0.0), true), // Campfire
     ColouredLight(485, 15, vec3(1.0, 0.33, 0.0), true), // Shroomlight
     ColouredLight(544, 10, vec3(0.6, 0.0, 1.0), true), // Crying obsidian
     ColouredLight(724, 15, vec3(1.0, 0.0, 1.0), true), // Pearlescent froglight
