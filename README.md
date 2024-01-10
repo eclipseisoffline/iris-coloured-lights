@@ -39,7 +39,7 @@ In every fragment shader where you will want to apply the coloured lights, add t
 Your fragment shader can use the core profile of modern GLSL versions. In the main function, add the following lines:
 
 ```glsl
-vec4 startLight = texture(lightmap, data.lightMapCoord);
+vec4 startLight = texture(lightmap, lightMapCoord);
 colortex0 = applyColouredLight(colortex0, startLight, worldPos, localChunkPos);
 ```
 
